@@ -2,7 +2,7 @@
 
 import sys, socket
 
-offset = ""
+offset = "" #copy/paste from metasploit framework tools
 
 
 try:
