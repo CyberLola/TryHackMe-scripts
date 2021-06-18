@@ -27,3 +27,5 @@ def tamper(payload, **kwargs):
     create_account(payload)
     headers["Cookie"] = login(payload)
     return payload
+
+#The folder where the tamper script is located will also need an empty __init__.py  file for sqlmap to be able to load it. 
